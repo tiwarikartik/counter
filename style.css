@@ -1,0 +1,39 @@
+:root {
+    color: hsl(360, 0%, 30%);
+    font-size: 5vmin;
+    background-color: hsl(360, 0%, 95%);
+}
+
+main {
+    font-family: Montserrat;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    padding: 20vmin;
+    line-height: 95%;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-size: 12vmin;
+}
+
+.rows {
+    display: grid;
+    grid-template-columns: repeat(3, 6rem);
+    grid-gap: 3vmin;
+}
+
+button {
+    border: 0.5vmin solid black;
+    border-radius: 0.9vmin;
+    font-size: inherit;
+    font-family: inherit;
+    background-color: inherit;
+    color: inherit;
+}
+
+button:hover {
+    color: hsl(360, 0%, 95%);
+    background-color: hsl(360, 0%, 30%);
+}
